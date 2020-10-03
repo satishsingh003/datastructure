@@ -21,7 +21,7 @@ init();
  **[⬆ Back to Top](#table-of-contents)**
 
 |2| [Hoisting?](#hoisting)|
-2. ### Hoisting?
+2. ### hoisting?
  a strict definition of hoisting suggests that variable and function declarations are physically moved to the top of your code, but this is not in fact what happens. Instead, the variable and function declarations are put into memory during the compile phase, but stay exactly where you typed them in your code.
  ```javascript
 function catName(name) {
@@ -68,8 +68,14 @@ let a; // Throws SyntaxError: Identifier 'a' has already been declared
 a = 1; // initialization.
 const a; // Throws SyntaxError: Missing initializer in const declaration
 ```
+ **[⬆ Back to Top](#table-of-contents)**
 # HTML
 
 # CSS
 
 # Angular
+1. |1| [Angular ngZone?](#AngularZone)|
+1. ### AngularZone? 
+NgZone enables us to explicitly run certain code outside Angular's Zone, preventing Angular to run any change detection. So basically, handlers will still be executed, but since they won't run inside Angular's Zone, Angular won't get notified that a task is done and therefore no change detection will be performed
+
+ **[⬆ Back to Top](#table-of-contents)**
