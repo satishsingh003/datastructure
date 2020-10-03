@@ -70,8 +70,29 @@ const a; // Throws SyntaxError: Missing initializer in const declaration
 ```
  **[⬆ Back to Top](#table-of-contents)**
 # HTML
-
+1. ### new Types of HTML 5 API
+HTML Web Workers --> Web Workers are a simple means for web content to run scripts in background threads. The worker thread can perform tasks without interfering with the user interface
+HTML Drag and Drop --> HTML drag-and-drop uses the DOM event model and drag events inherited from mouse events.
+HTML Application Cache --> https://developer.mozilla.org/en-US/docs/Web/HTML/Using_the_application_cache
+HTML Local Storage
+HTML SSE -> Server Sent Events
+HTML Geolocation -->The getCurrentPosition() method is used to return the user's position.
+**[⬆ Back to Top](#entities)**
 # CSS
+1. ### Entities in CSS
+entities defined by CSS authors that contain specific values to be reused throughout a document.
+```css
+:root {
+  --main-bg-color: brown;
+}
+```
+```css
+element {
+  background-color: var(--main-bg-color);
+}
+```
+
+**[⬆ Back to Top](#table-of-contents)**
 
 # Angular
 1. |1| [Angular ngZone?](#AngularZone)|
