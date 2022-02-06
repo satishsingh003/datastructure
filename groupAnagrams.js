@@ -23,3 +23,5 @@ let collectAnagrams = (words) => {
 }
 
 module.exports = collectAnagrams
+ 
+// https://medium.com/@noamsauerutley/group-anagrams-in-javascript-9fa05b9e0879
