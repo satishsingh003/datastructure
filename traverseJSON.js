@@ -1,3 +1,6 @@
+
+//traverse JSON and add the numeric node
+
 var obj = {a: 1, b: 2, c: {a: 1, b: 2}};
 var sum= 0;
 function walk(obj) {
